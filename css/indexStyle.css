@@ -1,11 +1,41 @@
 body {
-    background-color: #edffec;;
+    background-color: #fce6e6;
+    margin: 0%;
 }
 
 hr {
     border-style: none;
     border-top: dotted;
-    border-width: 4px;
+    border-width: 8px;
     border-top-color: rgb(211, 207, 207);
-    width: 3%;
+    width: 6%;
+}
+
+img, .front {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+
+h1, h3{
+    color: #61c0bf;
+}
+
+.front {
+    table-layout: fixed;
+    width: 60%;
+}
+
+.experience {
+    table-layout: fixed;
+    width: 40%;
 }
